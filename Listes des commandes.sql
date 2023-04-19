@@ -1,0 +1,1 @@
+select date_commande, adresse_client, email_client , nom_client, telephone_client, libelle, prix  from Commande join plat on Commande.id_plat = plat.id;
